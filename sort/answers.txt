@@ -1,0 +1,17 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+There is an exponential increase in time for the random and reversed .txt files, but a linear increase in time for the sorted file.
+This indicates that the algorithm has a Big O of n^2 and a Big Omega of n, which is the upper and lower bounds of the bubble sort algorithm.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+The run time does not exponentially nor linearly increase through out all .txt files that need to be sorted.
+This means that the algorithm is merge sort, as merge sort has a Big Theta of n log (n).
+
+sort3 uses: Selection Sort
+
+How do you know?:
+There is an exponential increase in time for all .txt files, indicating that the upper and lower bounds are n^2.
+This satisfies the bounds for selection sort.
